@@ -2,8 +2,9 @@
 @import "reset";
 @import "typography";
 
-// Constants
-$primary-colour: rgb(172, 110, 16);
+// Variables
+$primary-color: rgb(27, 34, 181);
+$background-color: $primary-color;
 $body-font: "Jost";
 $body-size: 24px;
 $mq-large: 800px;
@@ -25,7 +26,7 @@ $mq-medium: 600px;
 
 // Core
 body {
-    background-color: $primary-colour;
+    background-color: $background-color;
     color: #ffffff;
     font-family: $body-font;
     line-height: 1.5;
